@@ -22,7 +22,7 @@ export default function EditInvoiceForm({
   const initialState = { message:null, errors:{} }; 
   const upadateInvoiceWithId = updateInvoice.bind(null, invoice.id);
   const [state, dispatch] = useFormState(upadateInvoiceWithId , initialState);
-
+  
   return (
     <form action={dispatch}>
       <div className="rounded-md bg-gray-50 p-4 md:p-6">
