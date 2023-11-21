@@ -3,6 +3,10 @@ import RevenueChart from "../../ui/dashboard/revenue-chart"
 import LatestInvoices from "../../ui/dashboard/latest-invoices"
 import CardWrapper, { Card } from "../../ui/dashboard/cards"
 import { Suspense } from "react"
+import {Metadata} from 'next'
+export const metadata: Metadata = {
+  title: 'Dashboard',
+};
 import { 
     CardSkeleton,
        LatestInvoicesSkeleton,
