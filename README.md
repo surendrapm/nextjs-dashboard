@@ -1,5 +1,8 @@
 ## Next.js Financial Dashboard APP-  
 
+## Description -
+ simplified version of the financial dashboard created while gaining skill of NextJs which has below mentioned features
+ 
 **Features -** 
 
 -A public home page.
@@ -15,3 +18,6 @@
 - NextJS
 - Postgress SQL
 - Tailwind CSS
+- Vercel
+  
+ 
